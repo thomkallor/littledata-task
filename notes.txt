@@ -1,0 +1,20 @@
+- Brief instructions on how to run your code
+* The system must be installed with the latest version of node.
+* I am compressing the directory with the node modules, if you want you can run npm installed.
+* The solutions to the questions are in file hash-1, path-2, scrabble-3 of the root directory.
+* You can run the file using node `filename` `Path_to_input_file`.
+
+- Any notes we should bear in mind (e.g. why you made an unusual choice)
+* The 3rd question (scrabble) is not fully completed given the time constrain and may not give the best results.
+* I haven't checked the possibilty of making a word from non-continuous letters on the board (parallelly).
+* The possibility of making multiple words by arranging them parallelly is not implemented either.
+* The scrabble code is not well tested either and may raise error on occassion.
+
+- A brief note on what you found hardest about the challenge
+* The 3rd question was probably the hardest and took the majority of my time.
+* Surprisingly I couldn't find a lot a data structure library in nodejs that is well maintained.
+
+- A brief note on how you could improve your code further
+* The code may gives errors if meet with an unexpected input(error checks have to be performed further).
+* The 3rd question could be further cleaned up and split the code into smaller components.
+* Unit test cases can be written to ensure proper functionality.
